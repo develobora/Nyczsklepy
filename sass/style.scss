@@ -1,0 +1,1523 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Thin.eot');
+  src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+       url('../fonts/Montserrat-Thin.woff') format('woff'),
+       url('../fonts/Montserrat-Thin.ttf') format('truetype'),
+       url('../fonts/Montserrat-Thin.svg#Montserrat-Thin') format('svg'),
+       url('../fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Light.eot');
+  src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+       url('../fonts/Montserrat-Light.woff') format('woff'),
+       url('../fonts/Montserrat-Light.ttf') format('truetype'),
+       url('../fonts/Montserrat-Light.svg#Montserrat-Light') format('svg'),
+       url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('../fonts/Montserrat-Regular.woff') format('woff'),
+       url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+       url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
+       url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.eot');
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+       url('../fonts/Montserrat-Medium.woff') format('woff'),
+       url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+       url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg'),
+       url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-SemiBold.eot');
+  src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+       url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+       url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+       url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg'),
+       url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.eot');
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('../fonts/Montserrat-Bold.woff') format('woff'),
+       url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+       url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg'),
+       url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Light.eot');
+  src: url('../fonts/Oswald-Light.woff2') format('woff2'),
+       url('../fonts/Oswald-Light.woff') format('woff'),
+       url('../fonts/Oswald-Light.ttf') format('truetype'),
+       url('../fonts/Oswald-Light.svg#Oswald-Light') format('svg'),
+       url('../fonts/Oswald-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Regular.eot');
+  src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+       url('../fonts/Oswald-Regular.woff') format('woff'),
+       url('../fonts/Oswald-Regular.ttf') format('truetype'),
+       url('../fonts/Oswald-Regular.svg#Oswald-Regular') format('svg'),
+       url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Medium.eot');
+  src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+       url('../fonts/Oswald-Medium.woff') format('woff'),
+       url('../fonts/Oswald-Medium.ttf') format('truetype'),
+       url('../fonts/Oswald-Medium.svg#Oswald-Medium') format('svg'),
+       url('../fonts/Oswald-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-SemiBold.eot');
+  src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
+       url('../fonts/Oswald-SemiBold.woff') format('woff'),
+       url('../fonts/Oswald-SemiBold.ttf') format('truetype'),
+       url('../fonts/Oswald-SemiBold.svg#Oswald-SemiBold') format('svg'),
+       url('../fonts/Oswald-SemiBold.eot?#iefix') format('embedded-opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Bold.eot');
+  src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+       url('../fonts/Oswald-Bold.woff') format('woff'),
+       url('../fonts/Oswald-Bold.ttf') format('truetype'),
+       url('../fonts/Oswald-Bold.svg#Oswald-Bold') format('svg'),
+       url('../fonts/Oswald-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'espregular';
+  src: url("../fonts/esp.eot");
+  src: url("../fonts/esp.eot?#iefix") format("embedded-opentype"), url("../fonts/esp.woff2") format("woff2"), url("../fonts/esp.woff") format("woff"), url("../fonts/esp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import 'vendor/bootstrap.min';
+@import 'vendor/owl.carousel.min';
+@import 'vendor/font-awesome.min';
+@import 'vendor/component';
+@import 'vendor/swipebox.min';
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+$sect-padding: 100px 0;
+$slider-padding: 60px 0;
+$offer-padding-rwd: 60px 0;
+$offer-padding: 100px 0;
+
+$fontBlack: #1C1411;
+$fontGray: #a3a3a3;
+$fontGray2: #7f7f7f;
+$fontGray3: #5e5e5e;
+$fontGray4: #979797;
+$fontShopPhone: #9a9a9a;
+$mainOrange: #f49042;
+$Orange2: #faa665;
+$grayBg: #f0f0f0;
+
+
+$sm: "only screen and (min-width : 576px)"; 
+$md: "only screen and (min-width : 768px)"; 
+$lg: "only screen and (min-width : 992px)"; 
+$xlg: "only screen and (min-width : 1200px)";
+$ulg: "only screen and (min-width : 1440px)";
+$hlg: "only screen and (min-width : 1800px)";
+/*###############################--[ Default style + reset ]--###############################*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: #000000;
+}
+a, button {
+    color: white;
+    text-decoration: none !important;
+    &:hover, &:focus {
+        text-decoration: none !important;
+        outline: none;
+        color: white;
+    }
+}
+img {
+    image-rendering: -webkit-optimize-contrast; 
+}
+p, ul li {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: $fontGray4;
+    font-size: .94rem;
+    line-height: 1.6;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p, ul {
+    margin-bottom: 20px;
+}
+.bold, strong {
+    font-weight: 600;
+}
+.container {
+    @media #{$xlg} {
+        width: 1170px;
+    }
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    //background-image: url(../img/gradient-home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.button {
+    background-color: $mainOrange;
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: .83rem;
+    min-width: 185px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    position: relative;
+    border: 2px solid $mainOrange;
+    transition: color .3s;
+    font-family: 'Oswald';
+    color: white;
+    cursor: pointer;
+    outline: none;
+    span {
+        position: relative;
+        z-index: 3;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        transition: height .3s;
+    }
+    &:hover {
+        color: $mainOrange;
+        &::after {
+            height: 100%;
+        }
+    }
+    &.button-gray {
+        background-color: $fontGray2;
+        border-color: $fontGray2;
+        &:hover {
+            color: $fontGray2;
+        }
+    }
+}
+.buttons {
+    text-align: center;
+    @media #{$xlg} {                
+        display: flex;
+        justify-content: space-between;
+    }
+    .button {
+        margin: 5px 5px 0;
+    }
+}
+.header-sect {
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: $fontBlack;
+    margin-bottom: 75px;
+    font-weight: 400;
+}
+.button-wrapper {
+    margin-top: 80px;
+    text-align: right;
+}
+.border {
+    position: relative;
+    &::before, &::after {
+        content: "";
+        display: block;
+        width: 105px;
+        height: 1px;
+        background-color: $mainOrange;
+    }
+    &::before {
+        margin-bottom: 30px;
+    }
+    &::after {
+        margin-top: 30px;
+    }
+}
+.line {
+    overflow: hidden;
+    text-align: center;
+    hr {
+            border-top: 1px solid $Orange2;
+    }
+}
+.text-sect {
+    @media #{$lg} {
+        margin-right: 40px;
+    }
+}
+.item-name {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: $fontGray3;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+.fa {
+    float: left;
+    line-height: 1.4rem;
+}
+.img-sect {
+    //background-image: url(../img/tools.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+    min-height: 618px;
+    margin-top: 30px;
+    @media #{$lg} {
+        margin-top: 0;
+    }
+}
+
+/*###############################--[ Top-nav + logo ]--###############################*/
+.top {   
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    //transition: padding .3s ease-in-out;
+    //padding: 35px 0;
+    background: #ffffff;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.13);
+    .nav-wrapper {
+        position: relative;
+        padding: 20px 0;
+        transition: padding .3s ease-in-out;
+        @media #{$sm} {
+            padding: 35px 0px;
+        }
+        &.scroll {
+            padding: 10px 0;
+        }
+    }
+    .container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-align-items: center;
+        align-items: center;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        position: unset;
+    }
+    .logo {
+        text-decoration: none;
+        max-width: 100px;
+        position: relative;
+        z-index: 3;
+        @media #{$sm} {
+            max-width: 100%;
+        }
+    }
+    .main-nav {
+        .main-nav-list {
+            @include clearfix;
+            margin: 0;
+            height: 100%;
+            .list-inline-item {
+                float: left;  
+                display: block;
+            }
+        }
+        a {
+            display: block;
+            color: $fontGray;
+            font-family: 'Oswald';
+            font-weight: 400;
+            font-size: .93rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            position: relative;
+            padding: 24px 15px 10px;
+            transition: color .3s ease-in-out ;
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background-color: $mainOrange;
+                    position: absolute;
+                    bottom: 0;
+                    left: 15px;
+                    transition: width .2s;
+                }
+            &:hover {
+                color: #2b2b2b;
+                &::after {
+                    width: 20px;
+                }
+            }
+        }
+        a.menuactive {
+            color: #2b2b2b;
+            &::after {
+                content: '';
+                display: block;
+                width: 20px;
+                height: 2px;
+                background-color: $mainOrange;
+                position: absolute;
+                bottom: 0;
+                left: 15px;
+            }
+        }
+    }
+}
+/*###############################--[ Header - slider ]--###############################*/
+.header-slider {
+    height: 100%;
+    position: relative;
+    margin-top: 75px;
+    @media #{$sm} {
+        margin-top: 130px;
+    }
+    .item {
+        background-size: cover;    
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 575px;
+        position: relative;
+        display: flex;
+    }
+    .container {
+        display: flex;
+        align-self: center;
+    }
+    .item-content {
+        text-align: center;
+        color: white;
+        padding: 0;
+        position: unset;
+        @media #{$sm} {
+            text-align: left;
+        }
+        .item-header {
+            font-size: 1.8rem;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            line-height: 1.3;
+            margin-bottom: 30px;
+            font-weight: 400;
+            @media #{$sm} {
+                font-size: 4.2rem;
+            }
+        }
+        .item-body {
+            margin-bottom: 65px;
+            display: block;
+            p {
+                font-size: 1.1rem;
+                font-family: 'Montserrat';
+                font-weight: 400;
+                color: $fontGray2;
+                display: block;
+                margin-bottom: 0;
+                @meda #{$sm} {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+
+    .scroll-btn {
+        position: absolute; 
+        bottom: 17px;
+        display: block;
+        text-align: center;
+        font-size: .7rem;
+        text-transform: uppercase;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 1;
+        .scroll-text {
+            display: inline-block;
+            transform: rotate(-90deg);
+            position: relative;
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 75px;
+                height: 3px;
+                background-color: $mainOrange;
+                vertical-align: middle;
+                margin-right: 20px;
+                margin-bottom: 3px;
+            }
+        }
+    }
+    .owl-carousel {
+        .owl-dots {
+            position: absolute;
+            bottom: 98px;
+            text-align: center;
+            display: block;
+            left: 0;
+            right: 0;
+            z-index: 0;
+            height: 0px;
+            @media #{$sm} {
+                text-align: right;
+            }
+        }
+        .owl-dot {
+            display: inline-block;
+            width: 15px;
+            height: 2px;
+            background-color: white;
+            transition: background-color .3s;
+            position: relative;
+            top: -20px;
+            &+.owl-dot {
+                margin-left: 15px;   
+            }
+            &.active {
+                background-color: $mainOrange;       
+            }
+        }
+    }
+}
+
+/*###############################--[ Products on home page ]--###############################*/
+.products {
+    background-color: $grayBg;
+    padding: 110px 0 90px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        @media #{$sm} {
+            flex-direction: row;
+        }
+    }
+    .product-container {
+        margin: 0 auto 20px;
+        max-width: 226px;
+        @media #{$sm} {
+            flex: 0 0 41.854%;
+            max-width: 41.854%;
+        }
+        @media #{$md} {
+            flex: 0 0 31.39%;
+            max-width: 31.39%;
+
+        }
+        @media #{$lg} {
+            flex: 0 0 19.317%;
+            max-width: 19.317%;
+        }
+        .product-img {
+            position: relative;
+            display:flex;
+            min-height: 276px;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: rgba(13, 13, 13, 0.8);
+                opacity: 0;
+                transition: opacity .3s;
+            }
+            &::after {
+                content: '\FF0B';
+                color: $mainOrange;
+                position: absolute; 
+                width: 57px;
+                height: 57px;
+                display: none;
+                top: calc(50% - 28px);
+                left: calc(50% - 27px);
+                text-align: center;
+                line-height: 3.4;
+                border: 1px solid #545454;
+            }
+            &:hover {
+                &::before {
+                    opacity: 1;
+                }
+                &::after {
+                    display:block;
+                }
+            }
+        }
+    }
+}
+
+/*###############################--[ About us on home page ]--###############################*/
+.about-us {
+    padding: 100px 0 120px;
+    .header-sect {
+        margin-top: 25px;
+        margin-bottom: 40px;
+        text-align: left;
+        line-height: 1.6;
+    }
+
+    .button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+/*###############################--[ Benefits on home page ]--###############################*/
+.benefits {
+    //background-image: url(../img/slideBg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0 90px;
+    .header-sect {
+        color: white;
+        margin-bottom: 100px;
+    }
+    .icon-benefits {
+        text-align: center;
+    }
+    .item-name {
+        color: white;
+    }   
+}
+
+/*###############################--[ Info on home page ]--###############################*/
+.info {
+    //background-image: url(../img/slideBg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .clock-container {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        .clock-img {
+            align-self: center;
+        }
+        @media #{$md} {
+            justify-content: flex-end;
+            margin-bottom: 0;
+        }
+    }
+    .header-sect {
+        color: white;
+        margin-bottom: 20px;
+        @media #{$lg} {
+            margin: 0;
+        }
+    }
+    .border-info {
+        display: flex;
+        //border-top: 1px solid #2e2e2e;
+        //border-bottom: 1px solid #2e2e2e;
+        border-top: 1px solid #ffbd89;
+        border-bottom: 1px solid #ffbd89;
+        padding: 20px 0;
+        p {
+            text-align: center; 
+            margin: 0;
+            color: white;
+            @media #{$xlg} {
+                text-align: right;
+            }
+        }
+    }
+}
+
+/*###############################--[ Shops on home page ]--###############################*/
+.shops {
+    padding: 100px 0 90px;
+    &.dark-bg {
+        background-color: #f4f4f4;
+    }
+    .shop-img {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .button {
+            position: absolute;
+            display: none;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(13, 13, 13, 0.8);
+            opacity: 0;
+            transition: opacity .3s;
+        }
+        &:hover {
+            &::before {
+                opacity: 1;
+            }
+            .button {
+                display: inline-block;
+            }
+        }
+    }
+    .img-fluid {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .shop-container {
+        margin-bottom: 30px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+        @media #{$lg} {
+            margin-bottom: 0;
+        }
+    }
+    .item-name {
+        text-align: center;
+        @media #{$lg} {
+            text-align: left;
+        }
+    }
+    .shop-phone {
+        font-size: .95rem;
+        color: $fontShopPhone;
+        display: block;
+        margin-top: 15px;
+        &::before {
+            font-family: FontAwesome;
+            content: '\f095';
+            color: $mainOrange;
+            margin-right: 8px;
+        }
+    }
+}
+
+/*###############################--[ Section about product on home page ]--###############################*/
+.about-products {
+    padding: 100px 0;
+    .text-sect {
+        margin-right: 0;
+        @media #{$lg} {
+            margin-left: 35px;
+        }
+        .fa {
+            color: $mainOrange;
+        }
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap-reverse;    
+    }
+    .img-fluid {
+        margin: 55px auto 0;
+        display: block;
+        &+.img-fluid {
+            margin-top: 55px;
+        }
+        @media #{$lg} {
+            margin: 0 auto;
+        }
+    }
+    ul {
+        position: relative;
+    }
+    li {
+        padding-left: 25px;
+        &::before {
+            content: '\02714';
+            color: $mainOrange;
+            margin-right: 8px;
+            position: absolute;
+            left: 0;
+            line-height: 1.6;
+        }
+    }
+    .header-sect {
+        margin-top: 25px;
+        margin-bottom: 80px;
+        text-align: left;
+    }
+}
+
+/*###############################--[ Logos carousel on home page ]--###############################*/
+.logos {
+    padding: 75px 0;
+    border-top: 1px solid #e7e7e7;
+    .owl-stage {
+        display: flex;
+        align-items: center;
+    }
+    img {
+        margin: 0 auto;
+    filter: grayscale(100%);
+    }
+}
+
+/*##############################--[ Sectoion about companies on home page ]--##############################*/
+.about-companies {
+    position: relative;
+    z-index: 2;
+    background-color: #2b2b2b;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        display: block;
+        z-index: -2;
+        @media #{$md} {
+            width: 50%;
+            height: 100%
+        }
+    }
+    &::after {
+        background-color: $mainOrange;
+        bottom: 0;
+        @media #{$md} {
+            bottom: unset;
+            top: 0;
+            right: 0;
+        }
+    }
+    .logo-company {
+        margin-bottom: 45px;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            height: 1px;
+            display: block;
+            z-index: -1;
+            top: 50%;
+            @media #{$md} {
+                display: none;
+            }
+            @media #{$lg} {
+                display: block;
+            }
+        }
+    }
+    .block1, .block2 {
+        padding-top: 130px;
+        padding-bottom: 110px;
+    }
+    .block1 {
+        @media #{$md} {
+            .logo-company, .text {
+                margin-right: 35px;
+            }   
+        }
+        .logo-company {
+            &::after {
+                left: 50px;
+                right: 0;
+                background-color: #4e4e4e;
+                @media #{$md} {
+                    right: 15px;
+                }
+            }
+            img {
+                background-color: #2b2b2b;
+                padding-right: 40px;
+            }
+        }
+    }
+    .block2 {
+        .logo-company, .text {
+            @media #{$md} {
+                margin-left: 35px;
+            }
+        }
+        .logo-company {
+            &::after {
+                left: 50px; 
+                right: 0;
+                background-color: #fbae71;
+            }
+            img {
+                background-color: $mainOrange;
+                padding-right: 40px;
+            }
+        }
+        p {
+            color: white;
+        }
+    }
+}
+
+/*###############################--[ Subpage ]--###############################*/
+.subpage {
+    .header-slider {
+        background-size: cover;    
+        background-repeat: no-repeat;
+        min-height: 282px;
+        position: relative;
+        display: flex;
+    }
+    .item-content {
+        @media #{$sm} {
+            text-align: center;
+        }
+        .item-header {
+            margin-bottom: 10px;
+        }
+        .item-body {
+            margin-bottom: 0;
+        }
+    }
+    .about-us {
+        padding: 70px 0 120px;
+    }
+    .products {
+        padding: 70px 0 90px;
+    }
+}
+
+/*###############################--[ Shop list on contact page ]--###############################*/
+.shop-list {
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .shops-container {
+        justify-content: space-around;
+    }
+    .header-sect {
+        color: white;
+        margin-bottom: 60px;
+    }
+    .shop {
+        margin-bottom: 30px;
+        text-align: center;
+        @media #{$lg} {
+            text-align: left;
+        }
+    }
+    .item-name {
+        color: #ffd4b2;
+        span {
+            display: block;
+            font-size: 1rem;
+        }
+        &:hover {
+            color: white;
+        }
+        &:focus, &:activ {
+            text-decoration: underline;
+        }
+    }
+}
+
+/*###############################--[ Shop desc on contact page ]--###############################*/
+.shop-item {
+    padding: 80px 0;
+    //&:nth-child(2n+2) {
+    //    background-color: $grayBg;
+    //}
+    .border {
+        &::before {
+            display: block;
+            position: absolute;
+            background-color: transparent;
+            margin-bottom: 0;
+            top: -10px;
+            left: 0;
+            width: 87px;
+            height: 103px;
+            z-index: -1;
+            background-image: url(../img/pin.png);
+        }
+        &::after {
+            position: absolute;
+            left: 0;
+            margin-top: 50px;
+        }
+    }
+    .contact {
+        display: flex;
+        flex-flow: wrap row;
+        align-self: center;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-left: 10px;
+        @media #{$md} {
+            flex-flow: wrap column;
+            margin-left: 0;
+        }
+        @media #{$lg} {
+            align-items: flex-start;
+            margin-bottom: 0;
+        }
+    }
+    .shop-data {
+        min-width: 200px;
+    }
+    .header-sect {
+        padding-left: 50px;
+        text-align: left;
+        line-height: 1.6;
+        display: inline-block;
+        @media #{$lg} {
+            margin-top: 20px;
+        }
+        span {
+            display: block;
+        }
+    }
+    .item-name {
+        color: $fontBlack;
+        font-weight: 400;
+    }
+    .shop-phone {
+        color: $fontGray4;
+    }
+    .shop-mail {
+        color: $mainOrange;
+        font-weight: 500;
+    }
+    .buttons {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        @media #{$sm} {
+            display: flex;
+        }
+        @media #{$xlg} {
+            //margin-top: 80px;
+            margin-top: 30px;
+        }
+    }
+    .button {
+        margin: 0 auto;
+        display: block;
+        &:nth-child(2) {
+            margin-top: 10px;
+        }
+        @media #{$sm} {
+            display: inline-block;
+            &:nth-child(2) {
+                margin-left: 20px;
+                margin-top: 0;
+            }
+        }
+    }
+}
+/*###############################--[ Contact-form on contact page ]--###############################*/
+.contact-form {
+    padding: $slider-padding;
+    background-color: $grayBg;
+    .header-sect {
+        margin-bottom: 50px;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+    .form-inputs > div:first-child {
+        margin-bottom: 10px;
+        @media #{$md} {
+            margin-bottom: 0px;
+        }
+        .form-input {
+            &+.form-input {
+                margin-top: 10px;
+            }
+        }
+        @media #{$md} {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+        }
+    }
+    .buttons {
+        justify-content: flex-end;
+        .button {
+            margin: 0;
+        }
+    }
+    .shop-select-wrapper {
+        margin-bottom: 10px;
+    }
+    .form-inputs {
+        margin-bottom: 20px;
+    }
+    .form-control {
+        border-radius: 0;
+        padding: 13px;
+    }
+    .textarea {
+        height: 100%;
+    }
+    select.form-control:not([size]):not([multiple]) {
+        height: auto;
+    }
+    #contactMessage {
+        ul {
+            margin-bottom: 0px;
+        }
+    }
+}
+/*###############################--[ Gallery on contact page ]--###############################*/
+.gallery .images {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .img {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        &:first-child {
+            width: 100%;
+        }
+        &:not(:first-child) {
+            width: 33.33333%;
+        }
+        &:hover {
+            opacity: 0.85;
+        }
+        @media #{$sm} {
+            width: 50%;
+        }
+        @media #{$md} {
+            width: 33.3333%;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            padding: 10px;
+        }
+    }
+}
+
+/*###############################--[ Products description on product page ]--###############################*/
+.product-details {
+    padding: 100px 0;
+    .product-details-container {
+        margin-bottom: 30px;
+    }
+    .one-product-img {
+        img {
+            @extend .img-fluid;
+        }
+        p {
+            padding: 20px;
+            border: 1px solid whitesmoke;
+        }
+    }
+    img {
+        width: 100%;
+        //box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+    }
+    .border {
+        &::before {
+            display: none;
+        }
+    }
+    .header-sect {
+        text-align: left;
+    }
+}
+
+/*###############################--[ Table style ]--###############################*/
+.table {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    &.table-responsive {
+        @media #{$sm} {
+            display: table;
+        }
+    }
+    thead tr {
+        background-color: #6a6868;
+        color: white;
+    }
+    tbody {
+        color: $fontGray4;
+    }
+    tbody tr:nth-of-type(even) {
+        background-color: #efefef;
+    }
+    tbody tr:nth-of-type(odd) {
+        background-color: #f5f5f5;
+    }
+}
+.product-table {
+    table {
+        display: table;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        width: 100% !important;
+        overflow-x: auto;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        thead tr {
+            background-color: #6a6868;
+            color: white;
+        }
+        tr {
+            &:nth-of-type(2n+1) {
+                background-color: #f5f5f5;
+            }
+            &:nth-of-type(2n) {
+                background-color: #efefef;
+            }
+            &:first-of-type {
+                background-color: #6a6868 !important;
+                color: white;
+            }
+        }
+        td, th {
+            padding: .75rem;
+            vertical-align: top;
+            border-top: 1px solid #eceeef;
+            width: unset !important;
+        }
+        tbody  {
+            color: #979797;
+        }
+        thead + tbody tr:first-of-type {
+            background-color: #F5F5F5 !important;
+            color: rgb(151, 151, 151);
+        }
+    }
+}
+
+/*###############################--[ Breadcrumb wrapper ]--###############################*/
+.bc-wrapper {
+    background-color: $grayBg;
+}
+
+/*############################--[ Breadcrumb margins on site without header ]--############################*/
+.on-product-site {
+        margin-top: 75px;
+    @media #{$sm} {
+        margin-top: 130px;
+    }
+}
+
+/*###############################--[ Breadcrumb ]--###############################*/
+.breadcrumb {
+    display: block;
+    background-color: transparent;
+    padding: 0;
+    margin: 20px 0 0;
+    span {
+        padding: 0 10px;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 0;
+        color: $fontGray4;
+        &:first-child {
+            padding-left: 5px;
+        }
+        a {
+            color: $fontGray4;
+        }
+        &.current {
+            color: $fontBlack;
+        }
+    }
+}
+
+.o-nas, .sklepy-kontakt {
+    span.breadcrumb {
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+}
+
+.sklepy-kontakt {
+    .breadcrumb {
+        margin-bottom: 0;
+        margin-top: 30px;
+        span {
+            margin: 0;
+        }
+    }
+}
+
+/*###############################--[ Map modal window ]--###############################*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 5; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    .forPostyouradd {
+        height: 450px;
+    }
+    @media #{$md} {
+        margin: 10% auto;
+        .forPostyouradd {
+            height: 600px;
+        }
+    }
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+    float: none;
+    align-self: flex-end;
+    line-height: 0.5;
+    margin-bottom: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*###############################--[ Main Footer on site ]--###############################*/
+.main-footer {
+    border-top: 1px solid #e7e7e7; 
+    .footer-top {
+        padding: 50px 0;
+        .header-sect {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-bottom: 25px;
+            letter-spacing: 3px;
+            &::before {
+                content: '';
+                width: 26px;
+                height: 31px;
+                vertical-align: middle;
+                display: inline-block;
+                background-image: url(../img/marker.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                margin-right: 23px;
+                position: relative;
+                top: -3px;
+            }
+            @media #{$md} {
+                margin-top: 30px;
+            }
+            @media #{$lg} {
+                margin-top: 0;
+            }
+        }
+        //.buttons {
+        //    text-align: center;
+        //    @media #{$xlg} {                
+        //        display: flex;
+        //        justify-content: space-between;
+        //    }
+        //    .button {
+        //        margin: 5px 5px 0;
+        //    }
+        //}
+        .footer-nav {
+            display: grid;
+            grid-gap: 5px;
+            //grid-template-columns: repeat(3, 33%);
+            grid-template-columns: 23% 45% 52%;
+            grid-template-rows: 20px 20px 20px 20px 20px;
+            grid-auto-flow: column;
+            margin-left: 18px;
+            li {
+                a {
+                    font-family: 'Oswald';
+                    font-size: .9rem;
+                    color: $fontShopPhone;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    position:relative;
+                    &:hover {
+                        color: black;
+                    }
+                    &::before {
+                        content: '';
+                        width: 1px;
+                        height: 14px;
+                        position: absolute;
+                        background-color: $mainOrange;
+                        display: inline-block;
+                        left: -18px;
+                        top: 4px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        border-top: 1px solid #ededed;
+        padding: 50px 0;
+        position: relative;
+        p, .cookies {
+            font-size: .815rem;
+            color: $fontShopPhone;
+            margin: 0;
+            width: 100%;
+            line-height: 2.9;
+            font-family: 'Montserrat';
+        }
+        p {
+            margin-right: 55px;
+            text-align: center;
+            @media #{$md} {
+                margin-right: 0;
+            }
+            @media #{$lg} {
+                text-align: left;
+            }
+        }
+        .maked-by {
+            text-align: center;
+            display: block; 
+            margin-right: 55px;
+        }
+        .arrow {
+            width: 55px;
+            height: 100%;
+            background-color: #f3f3f3;
+            background-image: url(../img/arrow.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 10px;
+        }
+        /* Stopka WEBISO */
+        .webiso {
+          font-size: 18px;
+          color: #C0BFD3;
+          display: inline-block;
+          text-decoration: none;
+          line-height: 2;
+          margin-left: 5px;
+        }
+        .webiso span {
+          font-size: 18px !important;
+          font-family: "espregular";
+          position: relative;
+          top: 3px;
+        }
+        .webiso span:first-child {
+          color: $fontGray4;
+        }
+        .webiso span:last-child {
+          color: $fontGray4;
+        }
+        .webiso:hover span:first-child {
+          color: #2F80B2;
+        }
+        .webiso:hover span:last-child {
+          color: #53A834;
+        }
+    }
+}
+
